@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/')
 def index():
    print('Request for index page received')
-   return render_template('kermit.html')
+   return render_template('index_flask.html')
 
 @app.route('/favicon.ico')
 def favicon():
